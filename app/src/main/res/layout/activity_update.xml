@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_layout"
+    tools:context="com.freelance.android.androidrealmdatabase.activity.UpdateActivity">
+    <!--android:layout_margin="5dp"-->
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title...">
+        <requestFocus/>
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Image Url..."/>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:text="Update"
+        android:textColor="@color/colorText"
+        android:background="@drawable/btn_update_background"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-47dp"
+        android:textColor="@color/colorText"
+        android:background="@drawable/btn_delete_background"
+        android:text="Delete"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>

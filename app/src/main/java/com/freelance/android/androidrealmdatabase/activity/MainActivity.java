@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 mName = name.getText().toString();
                 mImage = image.getText().toString();
 
-                if (!mImage.isEmpty() && !mImage.isEmpty() ) {
+                if (!mName.isEmpty() && !mImage.isEmpty() ) {
 
                     Product p = new Product();
                     p.setName(mName);
